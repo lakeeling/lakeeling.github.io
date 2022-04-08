@@ -1,11 +1,10 @@
-.nav
-ul li {
-display: inline;
-border: none;
-text-decoration: none;
-text-align: center;
-width: 125px;
-list-style-type: none;
-padding: 25px 25px 25px 25px;
-margin-top: 0;
+.nav_list > ul li {
+    display: inline;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    width: 125px;
+    list-style-type: none;
+    padding: 25px 25px 25px 25px;
+    margin-top: 0;
 }
