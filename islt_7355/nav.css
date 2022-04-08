@@ -1,6 +1,6 @@
 ul li {
     display: inline;
-    border: none;
+    border: 3px solid white;
     text-decoration: none;
     text-align: center;
     width: 125px;
