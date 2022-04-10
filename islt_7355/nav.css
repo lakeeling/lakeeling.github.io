@@ -71,14 +71,13 @@ nav ul>li ul {
 /*hover to display the drop-down*/
 nav>ul>li:hover>ul{
     display: block;
-    background-color: #d08d57;
 }
 
-/*I removed this part but I want the hover color
+/*I removed this part but I want the hover color*/
 nav ul li ul li a {
     padding: 2px 1px;
 }
 
 nav ul li ul li a:hover {
-    background-color: #d08d57;*/
+    background-color: #d08d57;
 }
