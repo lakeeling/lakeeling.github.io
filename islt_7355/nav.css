@@ -61,14 +61,14 @@ nav ul li ul {
     padding: 10px;
 }
 
-nav ul li ul li a {
-    padding: 2px 1px;
+/*drop-down*/
+nav ul>li ul {
+    position: block;
+    margin-top: 0;
+    display: none;
 }
-
-nav ul li ul li a:hover {
-    background-color: #d08d57;
-}
-
+    
+/*hover to display the drop-down*/
 nav>ul>li:hover>ul{
     display: block;
-    }
+}
