@@ -73,7 +73,6 @@ nav>ul>li:hover>ul{
     display: block;
 }
 
-/*I removed this part but I want the hover color*/
 nav ul li ul li a {
     padding: 2px 1px;
 }
