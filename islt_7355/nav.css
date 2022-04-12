@@ -63,7 +63,7 @@ nav ul li ul {
 
 /*drop-down*/
 nav ul>li ul {
-    position: block;
+    display: block;
     margin-top: 0;
     display: none;
 }
@@ -73,6 +73,7 @@ nav>ul>li:hover>ul{
     display: block;
 }
 
+/*Do I need this?*/
 nav ul li ul li a {
     padding: 2px 1px;
 }
