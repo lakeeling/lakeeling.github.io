@@ -10,6 +10,22 @@ body {
 font-family: sans-serif;
 }
 
+main p:first-child::first-letter { 
+    font-weight: bold;
+    font-size: 150%; }
+
+main p {
+    text-indent: 2em;
+}
+
+
+main {
+    border: none;
+    width: 800px;
+    margin: 10px 20px 10px;
+    padding: 10px;
+}
+
 
 footer {
     text-align: center;
