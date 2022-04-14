@@ -24,25 +24,25 @@ h2 {
     text-indent: 0;
 }
 
-#refpara{
+#refpara {
     text-indent: 2em;
 }
 
-#refpara2{
+#refpara2 {
     text-indent: 2em;
 }
 
-#refpara3{
+#refpara3 {
     text-indent: 2em;
 }
 
-/*How do I do the box?
-main {
+/*How do I do the box?*/
+#refmain {
     border: none;
     width: 500px;
     margin: 20px;
     padding: 20px;
-}*/
+}
 
 
 footer {
