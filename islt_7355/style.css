@@ -31,7 +31,7 @@ main p {
 /*How do I do the box?*/
 main {
     border: none;
-    width: 1000px;
+    width: 500px;
     margin: 20px;
     padding: 20px;
 }
