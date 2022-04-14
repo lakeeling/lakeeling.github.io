@@ -28,13 +28,13 @@ main p {
     text-indent: 2em;
 }
 
-/*How do I do the box?*/
-#reflectionbox {
+/*How do I do the box?
+main {
     border: none;
     width: 500px;
     margin: 20px;
     padding: 20px;
-}
+}*/
 
 
 footer {
