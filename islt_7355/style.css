@@ -29,7 +29,7 @@ main p {
 }
 
 /*How do I do the box?*/
-main {
+#reflectionbox {
     border: none;
     width: 500px;
     margin: 20px;
