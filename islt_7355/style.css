@@ -36,6 +36,11 @@ h2 {
     text-indent: 2em;
 }
 
+blockquote {
+    font-size:x-large;
+    text-align: center;
+}
+
 /*Box*/
 #refmain {
     border: none;
