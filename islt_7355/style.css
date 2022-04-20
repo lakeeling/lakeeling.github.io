@@ -1,6 +1,18 @@
 /*Title:  Style css Use: style website Author: Lea Keeling School/Term: University of Missouri/Sp 2022
     Developed: March 24, 2022 Tested: April 12, 2022. Passed Chrome and Edge Browsers*/
 
+ .container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 10% 10% 40% 30% 10%;
+    grid-template-areas:
+        "navigation navigation"
+        "header header"
+        "content image"
+        "resume iframe-container"
+        "footer footer";
+    }
+
 .header {
     color: #083224;
     text-align: center;
@@ -58,10 +70,9 @@ footer {
     padding: 20px;
 }
 
-@media (max-width: 768px) {
 
-
-}
+/*placeholder
+@media (max-width: 768px) {}
 
 /*code from YouTube to make responsive but need to fix
 .iframe-container{

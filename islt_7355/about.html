@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <!--Title: About Me Page Use: Present bio and education info to users Author: Lea Keeling School/Term: University of Missouri/Sp 2022
-    Developed: March 24, 2022 Tested: April 12, 2022. Passed Chrome and Edge Browsers-->
+    Developed: March 24, 2022 Tested: April 19, 2022. Passed Chrome and Edge Browsers, exception YouTube-->
                <meta charset="utf-8">
                <meta name="viewport" content="width=device-width, initial-scale=1">
                <title>About Me</title>
@@ -10,9 +10,11 @@
                <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-    <nav>
-        <p>Lea Ann Keeling</p>
-        <ul>
+ <div class="container">
+        <div class="navigation">    
+            <nav>
+                <p>Lea Ann Keeling</p>
+            <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="#projects.html">Projects</a>
@@ -24,27 +26,36 @@
             </li>
             <li><a href="reflection.html">Reflection</a></li>
             <li><a href="#contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <header><h1 class="header">About Me</h1></header>
+            </ul>
+            </nav>
+        </div>
+         <div class="header">
+            <header><h1 class="header">About Me</h1></header>
+         </div>
     <main>
+        <div class="content">
         <p>I am a high school library media specialist in
-    Carthage, Missouri. I love helping my students find reading and research materials. The
-    library is my favorite place to be! I like to read and learn about lots of different topics.</p>
-    <p>I have a Master of Science in Human Development and Family Studies from The University of Arkansas. I also have a Master of Arts in Library Science from The University of Missouri. I am working on my Educational Specialist degree in Learning
-    Technologies and Design with an emphasis in Technology in Schools. I am also working
-    on an Online Educator Graduate Certificate. I plan to graduate from The University of
-    Missouri in May 2022.</p>
-    <p><img src="lakpic3.jpg" alt="Author picture">
-    </p>
-    <a href="resume.pdf">Resume</a><br>
+        Carthage, Missouri. I love helping my students find reading and research materials. The
+        library is my favorite place to be! I like to read and learn about lots of different topics.</p>
+        <p>I have a Master of Science in Human Development and Family Studies from The University of Arkansas. I also have a Master of Arts in Library Science from The University of Missouri. I am working on my Educational Specialist degree in Learning
+        Technologies and Design with an emphasis in Technology in Schools. I am also working
+        on an Online Educator Graduate Certificate. I plan to graduate from The University of
+         Missouri in May 2022.</p>
+         <blockquote>"<em>In librarianship, everything you do counts toward your work.</em>" -Allen Smith</blockquote>
+        </div>
+    <div class="image"><img src="lakpic3.jpg" alt="Author picture" height="350">
+    </div>
+    <div class="resume">
+    <a href="resume.pdf">Resume</a></div>
     <div class="iframe-container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/deDSziew5mE" title="YouTube video player"  frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
     </div>
-        <blockquote>"<em>In librarianship, everything you do counts toward your work.</em>" -Allen Smith</blockquote><br>
-</main>
-<footer>Lea Ann Keeling | lak5x7@mail.missouri.edu | Copyright 2022</footer>
+        
+    </main>
+    <div class="footer">
+    <footer>Lea Ann Keeling | lak5x7@mail.missouri.edu | Copyright 2022</footer></div>
+  </div>
 </body>
 </html>
