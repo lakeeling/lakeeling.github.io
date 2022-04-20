@@ -17,8 +17,8 @@
 .image {
         grid-area: image;
         }
-.iframe-container {
-        grid-area: iframe-container;
+.iframe {
+        grid-area: iframe;
           }
 .footer {
         grid-area: footer;
@@ -33,7 +33,7 @@
         "navigation navigation"
         "header header"
         "content image"
-        "resume iframe-container"
+        "resume iframe"
         "footer footer";
     }
 
