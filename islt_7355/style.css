@@ -44,8 +44,14 @@
     text-align: center;
 }
 
+.header1 {
+    color: #083224;
+    text-align: center;
+}
+
 body {
 font-family: sans-serif;
+text-size-adjust: 70%;
 }
 
 h2 {
