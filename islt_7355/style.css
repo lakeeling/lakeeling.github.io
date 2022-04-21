@@ -97,17 +97,19 @@ footer {
 }
 
 
-/*placeholder
-@media (max-width: 768px) {}
+/*I don't know how to do this
+@media screen (max-width: 600px) {
+    
+}
 
 /*code from YouTube to make responsive but need to fix
-.iframe-container{
+.iframe{
     position: relative;
     width: 100%;
     padding-bottom: 56.25%; 
     height: 0;
   }
-  .iframe-container iframe{
+  .iframe{
     position: absolute;
     top:0;
     left: 0;
