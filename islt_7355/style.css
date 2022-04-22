@@ -1,9 +1,14 @@
 /*Title:  Style css Use: style website Author: Lea Keeling School/Term: University of Missouri/Sp 2022
     Developed: March 24, 2022 Tested: April 12, 2022. Passed Chrome and Edge Browsers*/
 
+/*Media query
+@media screen (max-width: 600px) {
+    
+}*/
 
-.header {
-        grid-area: header;
+/*extra naming I'm not sure I need for container*/
+.top {
+        grid-area: top;
       }
 .navigation {
         grid-area: navigation;
@@ -14,8 +19,8 @@
 .resume {
         grid-area: resume;
       }
-.image {
-        grid-area: image;
+.headshot {
+        grid-area: headshot;
         }
 .iframe {
         grid-area: iframe;
@@ -24,7 +29,7 @@
         grid-area: footer;
       }
 
- 
+ /*grid*/
 .container {
     display: grid;
     grid-template-columns: 70% 30%;
@@ -33,18 +38,13 @@
     grid-auto-flow: row;
     grid-template-areas:
         "navigation navigation"
-        "header header"
-        "content image"
+        "top top"
+        "content headshot"
         "resume iframe"
         "footer footer";
     }
 
 .header {
-    color: #083224;
-    text-align: center;
-}
-
-.header1 {
     color: #083224;
     text-align: center;
 }
@@ -85,7 +85,7 @@ blockquote {
     text-align: center;
 }
 
-/*Box*/
+/*Box on reflection*/
 #refmain {
     border: none;
     width: 500px;
@@ -102,24 +102,10 @@ footer {
     padding: 20px;
 }
 
-
-/*I don't know how to do this
-@media screen (max-width: 600px) {
-    
+.headshot { 
+    width: 30%; height: auto;
 }
 
-/*code from YouTube to make responsive but need to fix
-.iframe{
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-  }
-  .iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }*/
-
+.iframe {
+    width: 40%; height: auto;
+}
