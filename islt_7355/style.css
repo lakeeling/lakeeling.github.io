@@ -24,10 +24,9 @@
         "navigation navigation navigation"
         "top top top"
         "content content headshot"
-        ". resume ."
-        ". iframe iframe"
+        "resume iframe iframe"
         "footer footer footer";
-    grid-gap: 2px;    
+    grid-gap: 0px;    
     }
 
 .header {
