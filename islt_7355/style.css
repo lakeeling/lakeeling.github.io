@@ -3,7 +3,7 @@
 
 
 /*extra naming I'm not sure I need for container*/
-.top { grid-area: top; }
+.pagename { grid-area: pagename; }
 .navigation { grid-area: navigation; }
 .content { grid-area: content; }
 .resume { grid-area: resume; }
@@ -15,15 +15,25 @@
 .container {
     display: grid;
     grid-template-columns: 35% 35% 30%;
-    grid-template-rows: 15% 10% 40% 25% 15%;
+    grid-template-rows: 15% 10% 45% 25% 15%;
     grid-template-areas:
         "navigation navigation navigation"
-        "top top top"
+        "pagename pagename pagename"
         "content content headshot"
         "resume iframe iframe"
         "footer footer footer";
     grid-gap: 4px;    
     }
+
+#topname {
+font-family: sans-serif;
+color: #ffffff;
+font-size: 28px;
+line-height: 55px;
+font-weight: bold;
+float: left;
+padding: 0px 320px 0px 10px; 
+}
 
 h1 {
     font-family: sans-serif;
