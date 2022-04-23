@@ -108,4 +108,7 @@ nav ul, nav:active ul {
 nav:hover ul {
     display: block;
         }
+nav:hover #mobileHide {
+            display: none;
+        }
 }
