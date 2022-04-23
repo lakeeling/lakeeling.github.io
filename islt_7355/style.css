@@ -1,10 +1,6 @@
 /*Title:  Style css Use: style website Author: Lea Keeling School/Term: University of Missouri/Sp 2022
     Developed: March 24, 2022 Tested: April 12, 2022. Passed Chrome and Edge Browsers*/
 
-/*Media query
-@media screen (max-width: 600px) {
-    
-}*/
 
 /*extra naming I'm not sure I need for container*/
 .top { grid-area: top; }
@@ -29,17 +25,30 @@
     grid-gap: 4px;    
     }
 
-.header {
+h1 {
     font-family: sans-serif;
     color: #083224;
     text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+    h1 {
+    color: #d08d57;
+    font-size: x-large; 
+        }
+    }
 
 h2 {
     font-family: sans-serif;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    h2 {
+    font-size: large; 
+        }
+    }
+
 
 p {
 font-family: sans-serif;
@@ -56,15 +65,7 @@ text-size-adjust: 70%;
     text-indent: 0;
 }
 
-#refpara {
-    text-indent: 2em;
-}
-
-#refpara2 {
-    text-indent: 2em;
-}
-
-#refpara3 {
+.refpara {
     text-indent: 2em;
 }
 
@@ -76,11 +77,26 @@ blockquote {
 
 /*Box on reflection*/
 #refmain {
+    text-align: center;
     border: none;
-    width: 500px;
-    margin: 20px;
+    width: 600px;
+    margin: auto;
     padding: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .content {
+      font-size: 80%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    #refmain {
+      background-color: #d08d57;
+      font-size: 80%;
+    }
+  } 
+
 
 footer {
     width: 100%;
