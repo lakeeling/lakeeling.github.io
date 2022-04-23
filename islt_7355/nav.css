@@ -105,4 +105,10 @@ nav ul, nav:active ul {
     padding: 20px 20px 20px 0px;
     top: 20px;
         }
+nav:hover ul {
+    display: block;
+        }
+nav:hover #mobileHide {
+            display: none;
+        }
 }
