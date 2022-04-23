@@ -85,3 +85,7 @@ nav ul li ul li a {
 nav ul li ul li a:hover {
     background-color: #d08d57;
 }
+
+#hamburger {
+    display: none;
+}
