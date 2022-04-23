@@ -3,7 +3,7 @@
 
 
 /*extra naming I'm not sure I need for container*/
-.pagename { grid-area: pagename; }
+.top { grid-area: top; }
 .navigation { grid-area: navigation; }
 .content { grid-area: content; }
 .resume { grid-area: resume; }
@@ -18,13 +18,13 @@
     grid-template-rows: 15% 10% 45% 25% 15%;
     grid-template-areas:
         "navigation navigation navigation"
-        "pagename pagename pagename"
+        "top top top"
         "content content headshot"
         "resume iframe iframe"
         "footer footer footer";
     grid-gap: 4px;    
     }
-
+/* tried to put name in header
 #topname {
 font-family: sans-serif;
 color: #ffffff;
@@ -33,7 +33,7 @@ line-height: 55px;
 font-weight: bold;
 float: left;
 padding: 0px 320px 0px 10px; 
-}
+}*/
 
 h1 {
     font-family: sans-serif;
