@@ -9,6 +9,8 @@ nav {
     width: 100%;
     height: 80px;
     background-color: #083224;
+    position: sticky;
+    top: 0;
 }
 
 /* took out for now
@@ -86,6 +88,34 @@ nav ul li ul li a:hover {
     background-color: #d08d57;
 }
 
+/* (C) HIDE HAMBURGER code from JK's example */
+#hamnav label, #hamburger { display: none; }
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+  /* (A) BREAK INTO VERTICAL MENU */
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-style: none;
+  }
+
+  /* (B) SHOW HAMBURGER ICON */
+  #hamnav label {
+    display: inline-block;
+    color: #f3efe9;
+    background: #d08d57;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  /* (C) TOGGLE SHOW/HIDE MENU */
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+}
+
 /*mobile and hamburger Leave in case I messed up.
 #hamburger {
     display: none;
@@ -116,31 +146,3 @@ nav:hover #mobileHide {
 #hamitems { display: none; }
 #hamnav input:checked ~ #hamitems { display: block; }
 }*/
-
-/* (C) HIDE HAMBURGER code from JK's example */
-#hamnav label, #hamburger { display: none; }
-
-/* [ON SMALL SCREENS] */
-@media screen and (max-width: 768px){
-  /* (A) BREAK INTO VERTICAL MENU */
-  #hamitems a {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    border-style: none;
-  }
-
-  /* (B) SHOW HAMBURGER ICON */
-  #hamnav label {
-    display: inline-block;
-    color: #f3efe9;
-    background: #d08d57;
-    font-style: normal;
-    font-size: 1.2em;
-    padding: 10px;
-  }
-
-  /* (C) TOGGLE SHOW/HIDE MENU */
-  #hamitems { display: none; }
-  #hamnav input:checked ~ #hamitems { display: block; }
-}
