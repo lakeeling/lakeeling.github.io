@@ -87,14 +87,6 @@ nav ul li ul li a:hover {
     background-color: #d08d57;
 }
 
-#hamitems { display: flex; }
-#hamitems a {
-  flex-grow: 1;
-  flex-basis: 0;
-  padding: 10px;
-  color: white;
-  text-decoration: none;
-  text-align: center;}
 
 /* (C) HIDE HAMBURGER code from JK's example */
 #hamnav label, #hamburger { display: none; }
@@ -106,7 +98,8 @@ nav ul li ul li a:hover {
     box-sizing: border-box;
     display: block;
     width: 100%;
-    border-style: none;
+    border-top: 1px solid #333;
+  
   }
 
   /* (B) SHOW HAMBURGER ICON */
