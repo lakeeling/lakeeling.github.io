@@ -117,6 +117,7 @@ footer {
     height: 30px;
     font-family: sans-serif;
     background-image: url(../images/library);
+    background-repeat: no-repeat;
     background-color: #083224; /* Used if the image is unavailable */
     color: #ffffff;
     text-align: center;
@@ -127,6 +128,7 @@ footer {
     height: 30px;
     font-family: sans-serif;
     background-image: url(../images/library);
+    background-repeat:no-repeat;
     background-color: #083224; /* Used if the image is unavailable */
     color: #ffffff;
     text-align: center;
