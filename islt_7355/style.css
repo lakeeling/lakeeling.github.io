@@ -112,9 +112,9 @@ blockquote {
   } 
 
 
-footer {
+footer, .footer {
     width: 100%;
-    height: 80px;
+    height: 50px;
     font-family: sans-serif;
     background-color: #083224;
     color: #ffffff;
