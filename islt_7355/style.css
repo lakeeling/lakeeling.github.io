@@ -1,6 +1,10 @@
 /*Title:  Style css Use: style website Author: Lea Keeling School/Term: University of Missouri/Sp 2022
     Developed: March 24, 2022 Tested: April 23, 2022. Passed Chrome and Edge Browsers*/
 
+@font-face { 
+        font-family: Montserrat; /*this is where we give our font a name so we can use it!*/
+        src: url("Montserrat-VariableFont_wght.ttf"); /*remember this is how we link to files in CSS!*/
+        }
 
 /*extra naming I'm not sure I need for container*/
 .top { grid-area: top; }
@@ -80,7 +84,7 @@ text-size-adjust: 70%;
 }
 
 blockquote {
-    font-family: sans-serif;
+    font-family: Montserrat;
     font-size:x-large;
     text-align: center;
 }
@@ -124,4 +128,22 @@ footer {
 
 .iframe {
     width: 40%; height: auto;
+}
+
+@media print {    
+    * {
+        color: black;
+        font-family: serif;
+        margin: 1in;
+    }
+    
+    
+    .headshot, .resume, .iframe, .navigation {
+        display: none;
+    }
+
+    blockquote {
+    font-family: Montserrat;
+}
+    
 }
