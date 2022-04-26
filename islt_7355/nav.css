@@ -102,7 +102,7 @@ nav ul li ul li a:hover {
 
   /* (B) SHOW HAMBURGER ICON */
   #hamnav label {
-    display: inline-block;
+    display: block;
     color: #f3efe9;
     background: #d08d57;
     font-style: normal;
