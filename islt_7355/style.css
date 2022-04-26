@@ -137,6 +137,13 @@ footer {
         margin: 1in;
     }
     
+    .top, .content, .footer {
+        color: black;
+        font-family: serif;
+        margin: 1in;
+        }
+    
+  
     
     .headshot, .resume, .iframe, .navigation {
         display: none;
