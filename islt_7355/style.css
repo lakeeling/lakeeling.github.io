@@ -130,14 +130,23 @@ footer {
     width: 40%; height: auto;
 }
 
-@media print {    
+@media print { 
+    @page { size:8.5in 11in; margin: 1in }  
      
-    .top, .content, .footer {
+    h1 {
         color: black;
         font-family: serif;
-        margin: 1in;
         }
     
+    .content {
+            color: black;
+            font-family: serif;
+            }
+
+    footer {
+                color: black;
+                font-family: serif;
+                }
      
     .headshot, .resume, .iframe, .navigation {
         display: none;
