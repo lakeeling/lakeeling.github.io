@@ -116,7 +116,7 @@ footer {
     width: 100%;
     height: 30px;
     font-family: sans-serif;
-    background-image: url(../images/library);
+    background-image: url(../images/library.png);
     background-repeat: no-repeat;
     background-color: #083224; /* Used if the image is unavailable */
     color: #ffffff;
@@ -127,7 +127,7 @@ footer {
     width: 100%;
     height: 30px;
     font-family: sans-serif;
-    background-image: url(../images/library);
+    background-image: url(../images/library.png);
     background-repeat:no-repeat;
     background-color: #083224; /* Used if the image is unavailable */
     color: #ffffff;
