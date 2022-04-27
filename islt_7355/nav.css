@@ -12,16 +12,6 @@ nav {
     top: 0;
 }
 
-/* took out for now
-nav p {
-    font-family: sans-serif;
-    color: #ffffff;
-    font-size: 28px;
-    line-height: 55px;
-    font-weight: bold;
-    float: left;
-    padding: 0px 320px 0px 10px; 
-}*/
 
 nav ul {
     float: left;
@@ -118,13 +108,3 @@ nav ul li ul li a:hover {
   #hamnav input:checked ~ #hamitems { display: block; }
 }
 
-/* BEGIN CHANGE HERE */
-nav ul li {
-    display: block;
-    border: none;
-    text-decoration: none;
-    text-align: center;
-    position: relative;
-
-/* END CHANGE HERE */
-}
