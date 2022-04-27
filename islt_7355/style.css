@@ -13,7 +13,7 @@
 .resume { grid-area: resume; }
 .headshot { grid-area: headshot; }
 .iframe { grid-area: iframe; }
-footer { grid-area: footer; }
+.aboutfoot { grid-area: aboutfoot; }
 
  /*grid*/
 .container {
@@ -25,7 +25,7 @@ footer { grid-area: footer; }
         "top top top"
         "content content headshot"
         "resume iframe iframe"
-        "footer footer footer";
+        "aboutfoot aboutfoot aboutfoot";
     grid-gap: 0px;    
     }
 /* tried to put name in header

@@ -88,7 +88,7 @@ nav ul li ul li a:hover {
 }
 
 
-/* (C) HIDE HAMBURGER code from JK's example */
+/* (C) HIDE HAMBURGER code from JK's example*/
 #hamnav label, #hamburger { display: none; }
 
 /* [ON SMALL SCREENS] */
@@ -118,33 +118,7 @@ nav ul li ul li a:hover {
   #hamnav input:checked ~ #hamitems { display: block; }
 }
 
-/*mobile and hamburger Leave in case I messed up.
-#hamburger {
-    display: none;
-}
 
-@media only screen and (max-width: 640px){
-#hamburger {
-    display: block;
-    padding-left: 20px;
-    width: 26px;
-    float: left;
-    font-size: 2em;
-}
 
-nav ul, nav:active ul {
-    display: none;
-    position: absolute;
-    padding: 20px 20px 20px 0px;
-    top: 20px;
-        }
-nav:hover ul {
-    display: block;
-        }
-nav:hover #mobileHide {
-            display: block;
-        }
-}
-#hamitems { display: none; }
-#hamnav input:checked ~ #hamitems { display: block; }
-}*/
+
+
