@@ -77,6 +77,14 @@ nav ul li ul li a:hover {
     background-color: #d08d57;
 }
 
+nav :hover ul {
+    display: block;
+}
+
+nav :hover #mobilehide {
+    display: none;
+}
+
 
 /* (C) HIDE HAMBURGER code from JK's example */
 #hamnav label, #hamburger { display: none; }
