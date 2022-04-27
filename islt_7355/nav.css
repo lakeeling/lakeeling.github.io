@@ -97,6 +97,7 @@ nav ul li ul li a:hover {
   #hamitems a {
     box-sizing: border-box;
     display: block;
+    background-color: #083224;
     width: 100%;
     border-top: 1px solid #333;
   
