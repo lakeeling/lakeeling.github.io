@@ -98,6 +98,15 @@ blockquote {
     padding: 20px;
 }
 
+/*Box on project*/
+#projects {
+    text-align: left;
+    border: none;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
 @media screen and (max-width: 600px) {
     .content {
       font-size: 80%;
@@ -110,6 +119,13 @@ blockquote {
       font-size: 80%;
     }
   } 
+
+@media screen and (max-width: 600px) {
+    #projects {
+      background-color: #d08d57;
+      font-size: 80%;
+    }
+  }   
 
 
 footer {
