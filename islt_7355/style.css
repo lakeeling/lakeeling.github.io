@@ -13,7 +13,7 @@
 .resume { grid-area: resume; }
 .headshot { grid-area: headshot; }
 .iframe { grid-area: iframe; }
-.footer { grid-area: footer; }
+footer { grid-area: footer; }
 
  /*grid*/
 .container {
