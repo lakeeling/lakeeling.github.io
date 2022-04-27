@@ -161,6 +161,21 @@ footer {
     width: 40%; height: auto;
 }
 
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.iconbig {
+    position: absolute;
+    width: 0px;
+    z-index: 10;
+}
+
+.icon:hover + .iconbig {
+    width: 50px;
+}
+
 @media print { 
     @page { size:8.5in 11in; margin: 1in }  
      
