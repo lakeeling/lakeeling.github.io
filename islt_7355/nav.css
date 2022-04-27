@@ -88,7 +88,7 @@ nav ul li ul li a:hover {
 }
 
 
-/* (C) HIDE HAMBURGER code from JK's example*/
+/* (C) HIDE HAMBURGER code from JK's example */
 #hamnav label, #hamburger { display: none; }
 
 /* [ON SMALL SCREENS] */
@@ -118,7 +118,13 @@ nav ul li ul li a:hover {
   #hamnav input:checked ~ #hamitems { display: block; }
 }
 
+/* BEGIN CHANGE HERE */
+nav ul li {
+    display: block;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
 
-
-
-
+/* END CHANGE HERE */
+}
