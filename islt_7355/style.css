@@ -198,7 +198,12 @@ footer {
     #educationlist {
         color: black;
         font-family: serif;
-    }        
+    }
+    
+    ul {
+        color: black;
+        font-family: serif; 
+    }
 
     footer {
                 color: black;
