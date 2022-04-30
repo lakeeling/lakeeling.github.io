@@ -89,6 +89,11 @@ blockquote {
     text-align: center;
 }
 
+#educationlist {
+    font-family: sans-serif;
+    text-size-adjust: 70%;
+}
+
 /*Box on reflection*/
 #refmain {
     text-align: left;
@@ -180,12 +185,17 @@ footer {
             font-family: serif;
             }
 
+    #educationlist {
+        color: black;
+        font-family: serif;
+    }        
+
     footer {
                 color: black;
                 font-family: serif;
                 }
      
-    .headshot, .resume, .iframe, .navigation {
+    .headshot, .resume, .iframe, .navigation, .icon {
         display: none;
     }
 
