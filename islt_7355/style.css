@@ -90,6 +90,7 @@ blockquote {
 }
 
 #educationlist {
+    font-weight: bold;
     font-family: sans-serif;
     text-size-adjust: 70%;
 }
@@ -179,6 +180,11 @@ footer {
         color: black;
         font-family: serif;
         }
+
+    h2 {
+            color: black;
+            font-family: serif;
+            }
     
     p {
             color: black;
