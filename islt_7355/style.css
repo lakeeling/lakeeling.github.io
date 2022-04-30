@@ -95,6 +95,10 @@ blockquote {
     text-size-adjust: 70%;
 }
 
+ul { 
+    font-family: sans-serif;
+}
+
 /*Box on reflection*/
 #refmain {
     text-align: left;
