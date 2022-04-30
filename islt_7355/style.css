@@ -19,25 +19,16 @@
 .container {
     display: grid;
     grid-template-columns: 35% 35% 30%;
-    grid-template-rows: 15% 10% 45% 25% 15%;
+    grid-template-rows: 15% 10% 40% 35% 10%;
     grid-template-areas:
         "navigation navigation navigation"
         "top top top"
         "content content headshot"
         "resume iframe iframe"
         "aboutfoot aboutfoot aboutfoot";
-    grid-gap: 0px;    
+    grid-gap: 2px;    
     }
-/* tried to put name in header
-#topname {
-font-family: sans-serif;
-color: #ffffff;
-font-size: 28px;
-line-height: 55px;
-font-weight: bold;
-float: left;
-padding: 0px 320px 0px 10px; 
-}*/
+
 
 h1 {
     font-family: sans-serif;
@@ -49,20 +40,14 @@ h1 {
     h1 {
     color: #d08d57;
     font-size: x-large; 
-        }
-    }
+        } }
+    
 
 h2 {
     font-family: sans-serif;
     text-align: center;
+    font-size: large;
 }
-
-@media screen and (max-width: 600px) {
-    h2 {
-    font-size: large; 
-        }
-    }
-
 
 p {
 font-family: sans-serif;
@@ -121,6 +106,7 @@ ul {
     .content {
       font-size: 80%;
     }
+    img { max-width: 150px; max-height: fit-content;}
   }
 
 @media screen and (max-width: 600px) {
@@ -158,6 +144,12 @@ footer {
 
 .iframe {
     width: 40%; height: auto;
+}
+
+.resume {
+    width: 20%; height: 20%;
+    padding-right: 5px;
+    padding-bottom: 5px;
 }
 
 .icon {
