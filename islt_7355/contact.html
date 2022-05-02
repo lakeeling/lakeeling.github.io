@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- Title: Contact Me Use: Welcome users to site Author: Lea Keeling School/Term: University of Missouri/Sp 2022
+    Developed: May 1, 2022 Tested: May 1, 2022. Passed Chrome and Edge Browsers -->
+               <meta charset="utf-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+               <title>Contact Me</title>
+               <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+               <link rel="stylesheet" href="style.css">
+               <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <nav id="hamnav">
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger"/>
+        <div class="dropdown" id="hamitems">
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a>
+                <ul id="mobileHide">
+                    <li><a href="projects.html#Project1">Project 1</a></li>
+                    <li><a href="projects.html#Project2">Project 2</a></li>
+                    <li><a href="projects.html#Project3">Project 3</a></li>
+                </ul>
+            </li>
+            <li><a href="reflection.html">Reflection</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+    <header><h1>Contact Me</h1></header>
+    <main>
+        <div class="contactform">
+        <form action="mailto:lak5x7@mail.missouri.edu?Subject=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name." required autofocus><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Enter your last name." required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email." required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Please write your message here." required style="height: 200px"></textarea><br><br>
+            <button type="submit">Send email</button>
+            </form>
+        </div>
+    
+</main>
+<footer>Lea Ann Keeling | 
+    <img class="icon" src="images/mail.png" alt="mailbox"/>
+    <img class="iconbig" src="images/mail.png" alt="mailbox"/>
+    &nbsp;lak5x7@mail.missouri.edu | 
+    <img class="icon" src="images/phone.png" alt="phone"/>
+    <img class="iconbig" src="images/phone.png" alt="phone"/>
+    &nbsp;1+888-888-8888</footer>
+<!--<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Uniconlabs - Flaticon</a>-->
+</body>
+</html>
