@@ -1,5 +1,5 @@
 /*Title:  Style css Use: style website Author: Lea Keeling School/Term: University of Missouri/Sp 2022
-    Developed: March 24, 2022 Tested: May 1, 2022. Passed Chrome and Edge Browsers*/
+    Developed: March 24, 2022 Tested: May 2, 2022. Passed Chrome and Edge Browsers*/
 
 @font-face { 
         font-family: Montserrat; /*this is where we give our font a name so we can use it!*/
@@ -100,6 +100,45 @@ ul {
     width: 600px;
     margin: auto;
     padding: 20px;
+}
+
+table {
+    width: 600px;
+    margin: auto;
+    }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    background-color: #083224;
+    color: white; 
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+    #responsivetable {
+        overflow-x: auto;
+        width: 320px;
+    }
 }
 
 @media screen and (max-width: 600px) {
