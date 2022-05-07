@@ -1,5 +1,5 @@
 /*Title: Navigation css Use: style navigation Author: Lea Keeling School/Term: University of Missouri/Sp 2022
-    Developed: March 24, 2022 Tested: April 30, 2022. Passed Chrome and Edge Browsers*/
+    Developed: March 24, 2022 Tested: May 7, 2022. Passed Chrome and Edge Browsers*/
 
 * {
     margin: 0;
@@ -32,6 +32,7 @@ nav ul li {
     position: relative;
 }
 
+
 nav ul ul {
     display: none;
     position: absolute;
@@ -61,17 +62,18 @@ nav ul>li ul {
     display: block;
     margin-top: 0;
     display: none;
-}
+    }
     
 /*hover to display the drop-down*/
 nav>ul>li:hover>ul{
     display: block;
-}
+   }
 
-/*Do I need this?*/
+
 nav ul li ul li a {
     padding: 2px 1px;
 }
+
 
 nav ul li ul li a:hover {
     background-color: #d08d57;
@@ -79,7 +81,7 @@ nav ul li ul li a:hover {
 
 nav :hover ul {
     display: block;
-}
+    }
 
 nav :hover #mobilehide {
     display: none;
